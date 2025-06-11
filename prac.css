@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    font-family: "Montserrat", serif;
+    margin:0;
+    color: white;
+    overflow: hidden;
+
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    margin-left: 0.5rem;
+}
+
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    height: 100vh;
+}
+
+.nav{
+    width: 84%;
+    height:100px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #121212;
+    border-radius: 2rem;
+}
+
+.nav-option{
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: x-large;
+    color: white;
+}
+
+.nav-option a{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.library{
+    width: 86%;
+    height: 100%;
+    background-color: #121212;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    color: white; 
+    font-size: 1.25rem;
+    display: flex;
+    
+}
+
+.icons i{
+    margin: 0.75rem;
+    opacity: 0.7;
+}
+
+.icons i:hover{
+   opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    color: white;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.5%;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem; 
+}
+.box-p1{
+    color: azure;
+}
+.box-p2{
+     opacity: 0.7;
+     font-size: 0.75rem;
+}
+
+.box button{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.box button:hover{
+    opacity: 1;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-content{
+    background-color: #121212;
+    flex:1;
+    border: 1rem;
+    overflow: auto;
+}
+
+.music-player{
+    background-color: #121212;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
